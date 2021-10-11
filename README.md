@@ -2,9 +2,9 @@
 
 ## Core challenges
 
-- [ ] Creating User Stories
-- [ ] Setting up a Web Project
-- [ ] Viewing bookmarks
+- [x] Creating User Stories
+- [x] Setting up a Web Project
+- [x] Viewing bookmarks
 - [ ] Setting up a Database
 - [ ] Creating your First Table
 - [ ] Manipulating Table Data
