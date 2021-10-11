@@ -5,7 +5,7 @@
 - [x] Creating User Stories
 - [x] Setting up a Web Project
 - [x] Viewing bookmarks
-- [ ] Setting up a Database
+- [x] Setting up a Database
 - [ ] Creating your First Table
 - [ ] Manipulating Table Data
 - [ ] Interacting with Postgres from Ruby
