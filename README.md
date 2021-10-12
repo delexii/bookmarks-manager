@@ -36,13 +36,20 @@
   `rspec`
 
 ## How to set up the database
-Connect to psql
-Create the database using the psql command
-``` 
+
+Connect to psql and create the database using the psql command
+
+```
 CREATE DATABASE bookmark_manager;
 ```
 
 To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
+
+Connect to psql and create the test database using the psql command
+
+```
+CREATE DATABASE bookmark_manager_test;
+```
 
 ## User Stories
 

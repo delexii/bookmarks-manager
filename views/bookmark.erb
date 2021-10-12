@@ -7,6 +7,10 @@
     <title>Bookmarks Manager</title>
 </head>
 <body>
-    <p><%=@bookmarks%></p>
+<ul>
+<% @bookmarks.each do |bookmark| %>
+  <li><%= bookmark %></li>
+<% end %>
+</ul>
 </body>
 </html>
