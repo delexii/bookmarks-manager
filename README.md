@@ -16,7 +16,7 @@
 - [ ] Securing Your App
 - [ ] Deleting bookmarks
 
-## Project To do
+## Project Features
 
 - [ ] Show a list of bookmarks
 - [ ] Add new bookmarks
@@ -26,6 +26,14 @@
 - [ ] Tag bookmarks into categories
 - [ ] Filter bookmarks by tag
 - [ ] Users are restricted to manage only their own bookmarks
+
+## How to install the project
+
+- fork this repo
+- clone to your own repo
+- push any updates
+  `bundle install`
+  `rspec`
 
 ## User Stories
 

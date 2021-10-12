@@ -1,4 +1,4 @@
-class Bookmarks
+class Bookmark
   def all
     ["travel"]
   end
