@@ -7,10 +7,12 @@
     <title>Bookmarks Manager</title>
 </head>
 <body>
+
 <ul>
 <% @bookmarks.each do |bookmark| %>
-  <li><%= bookmark %></li>
+  <li><a href="<%= bookmark[:title] %>"><%= bookmark[:url]%></a></li>
 <% end %>
 </ul>
+
 </body>
 </html>

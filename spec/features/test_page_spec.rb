@@ -1,4 +1,4 @@
-require 'pg'
+require "pg"
 
 feature "Tests index page" do
   scenario "exists" do
