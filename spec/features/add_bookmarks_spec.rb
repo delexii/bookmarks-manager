@@ -7,6 +7,6 @@ feature "Add bookmarks" do
     fill_in :url, with: "http://www.makersacademy.com/"
     click_button("Add bookmark")
     visit ("/bookmarks")
-    expect(page).to have_content("http://www.makersacademy.com/")
+    expect(page).to have_content("Makers Academy")
   end
 end
