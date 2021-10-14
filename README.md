@@ -6,21 +6,21 @@
 - [x] Setting up a Web Project
 - [x] Viewing bookmarks
 - [x] Setting up a Database
-- [ ] Creating your First Table
-- [ ] Manipulating Table Data
-- [ ] Interacting with Postgres from Ruby
-- [ ] Upgrading your Toolset
-- [ ] Setting up a Testing Environment
-- [ ] Creating bookmarks
-- [ ] Wrapping Database data in program objects
-- [ ] Securing Your App
-- [ ] Deleting bookmarks
+- [x] Creating your First Table
+- [x] Manipulating Table Data
+- [x] Interacting with Postgres from Ruby
+- [x] Upgrading your Toolset
+- [x] Setting up a Testing Environment
+- [x] Creating bookmarks
+- [x] Wrapping Database data in program objects
+- [x] Securing Your App
+- [x] Deleting bookmarks
 
 ## Project Features
 
-- [ ] Show a list of bookmarks
-- [ ] Add new bookmarks
-- [ ] Delete bookmarks
+- [x] Show a list of bookmarks
+- [x] Add new bookmarks
+- [x] Delete bookmarks
 - [ ] Update bookmarks
 - [ ] Comment on bookmarks
 - [ ] Tag bookmarks into categories
@@ -65,3 +65,8 @@ So I can read a website later
 I would like to add a site's url and title to my list of bookmarks
 ```
 
+```
+As a user
+So I can remove saved webpages from my list
+I would like to be able to delete a bookmark
+```
