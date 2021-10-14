@@ -1,4 +1,5 @@
 require "bookmark"
+require "setup_test_database"
 
 RSpec.describe Bookmark do
   describe "#all" do
@@ -18,12 +19,10 @@ RSpec.describe Bookmark do
   describe "#create" do
     it "creates a new bookmark" do
       bookmark = Bookmark.create(url: "http://www.facebook.com", title: "Facebook")
-      persisted_data = PG.connect(dbname: "bookmark_manager_test").query("SELECT * FROM bookmarks WHERE id = #{bookmark.id};")
-      p "Hello"
-      p bookmark
-      p persisted_data
+      persisted_data = persisted_data(id: bookmark.id)
+
       expect(bookmark).to be_a Bookmark
-      expect(bookmark.id).to eq persisted_data.first["id"]
+      expect(bookmark.id).to eq persisted_data["id"]
       expect(bookmark.title).to eq "Facebook"
       expect(bookmark.url).to eq "http://www.facebook.com"
     end
