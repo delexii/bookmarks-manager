@@ -27,4 +27,11 @@ RSpec.describe Bookmark do
       expect(bookmark.url).to eq "http://www.facebook.com"
     end
   end
+  describe "#delete" do
+    it "deletes a bookmark" do
+      bookmark = Bookmark.create(url: "http://www.facebook.com", title: "Facebook")
+      Bookmark.delete(id: bookmark.id)
+      expect(Bookmark.all).to be_empty
+    end
+  end
 end
